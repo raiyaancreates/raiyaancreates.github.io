@@ -14,10 +14,52 @@ body {
     margin: 0 auto;
 }
 
-nav {
+.header-container {
     margin-bottom: 60px;
+}
+
+.site-identity {
+    display: inline-flex;
+    align-items: center;
+    background: #f4d4ce;
+    /* Peach background from screenshot */
+    padding: 8px 16px 8px 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.icon-circle {
+    width: 32px;
+    height: 32px;
+    background: #4a5568;
+    /* Dark grey/blue icon background */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.icon-circle img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.site-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -0.02em;
+}
+
+nav {
     display: flex;
     gap: 20px;
+    padding-left: 4px;
+    /* Align slightly with the text above */
 }
 
 nav a {
@@ -148,11 +190,11 @@ blockquote {
     body {
         padding: 30px 15px;
     }
-    
+
     h1 {
         font-size: 24px;
     }
-    
+
     #email-form {
         flex-direction: column;
     }
