@@ -21,17 +21,8 @@ body {
 .site-identity {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.icon-logo {
-    width: 80px;
-    /* Large and clear */
-    height: auto;
-    display: block;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-    /* Small pop */
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .site-name {
